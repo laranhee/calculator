@@ -34,13 +34,15 @@ int main(int argc, char* argv[])
 	return 0;
 }
 
+//더하기
 int add(int number1, int number2)
 {
 	//TODO implementation
 	int result = number1 + number2;
 	return result;
 }
-
+ 
+//빼기
 int sub(int number1, int number2)
 {
 	//TODO implementation
