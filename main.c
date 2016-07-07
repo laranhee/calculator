@@ -34,6 +34,7 @@ int main(int argc, char* argv[])
 	return 0;
 }
  
+//더하기
 int add(int number1, int number2)
 {
 	//TODO implementation
@@ -41,6 +42,7 @@ int add(int number1, int number2)
 	return result;
 }
  
+//빼기
 int sub(int number1, int number2)
 {
 	//TODO implementation
@@ -48,14 +50,16 @@ int sub(int number1, int number2)
 	return result;
 }
  
+//곱하기
 int multi(int number1, int number2)
 {
 	//TODO implementation
-	return 0;
+	return number1 * number2;
 }
  
+//나누기
 int div(int number1, int number2)
 {
 	//TODO implementation
-	return 0;
+	return number1 / number2;
 }
